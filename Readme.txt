@@ -1,12 +1,6 @@
-Bhavana Talluri
-S20170010025
-Assignment 1
-11:55PM 09-09-2019
-
-
 ASSUMPTIONS:
 
-1. The path is set for the files in my local machine. To run it on a different system, just the lines 42 and 44 needs to be edited.
+1. The path is set for the files in my local machine. To run it on a different system, just the lines 44 and 46 needs to be edited.
 
 2. Since my code is running on a MacOs, I have explicitly put a condition to not consider the hidden files - . , .. , .DS_Store.
 
@@ -17,14 +11,8 @@ ASSUMPTIONS:
 5. Hyderabad is one of the words that's occuring in atleast 5 documents.
 
 
-
-
 CODE:
 
 1. Works for all kinds of boolean operators - AND, OR, AND NOT, OR NOT between terms.
 
-2. Works for queries of the format - X* and *X.
-
-3. Works for the AND, OR operations of the wildcard queries.
-
-2. Permuterm index (for the form X*Y) has been constructed using the linked list datastructure. 
+2. Works for individual queries of the format - X* and *X.
